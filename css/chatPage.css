@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0;
+    border: none;
+
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.wrapper .row{
+    width:100% ;
+    box-sizing: border-box;
+
+}
+
+.wrapper .row .sidebar{
+    width: 31%;
+    /* height: 110px; */
+
+}
+
+.right .contact_icon{
+    height:20px ;
+    width: 25px;
+    padding: 0%;
+    margin: 0;
+
+}
+
+.wrapper .row .sidebar .left_header{
+    /* height: 100%; */
+    height: 110px;
+}
+
+.wrapper .row .sidebar .left_header .top_bar{
+    height: 55%;
+    padding: 5px 0px;
+    background-color: #202c33;
+
+}
+.wrapper .row .sidebar .left_header .top_bar .left{
+    width: 70%;
+    padding-left: 25px;
+}
+
+.wrapper .row .sidebar .left_header .top_bar .right{
+    width: 30%;
+    padding-right: 10px;
+
+}
+
+.wrapper .row .sidebar .left_header .search_bar{
+    height: 45%;
+    padding: 7px 0px;
+    padding-left: 25px;
+    background-color: #111b21;
+
+}
+.wrapper .row .sidebar .left_header .search_bar .search_icon{
+    width: 100px;
+    padding: 0px 5px;
+    background-color: #202c33;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 100%;
+}
+
+.wrapper .row .sidebar .left_header .search_bar input{
+    width: 90%;
+    outline: none;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #202c33;
+    color: white;
+    height: 100%;
+
+}
+
+.wrapper .row .sidebar .left_header .search_bar .sort_div{
+    width: 30px;
+    padding: 0px 5px;
+    height: 100%;
+
+}
+
+.wrapper .row .sidebar .left_footer{
+    height:588px;
+    overflow: auto;
+    scrollbar-color: #374045 #111b21;
+    scrollbar-width: thin;
+
+
+
+}
+.wrapper .row .sidebar .left_footer .contact{
+    min-height: 75px !important;
+    width: 100%;
+    background-color: #111b21;
+    color: white;
+
+}
+
+.wrapper .row .sidebar .left_footer .contact:hover{
+    background-color: #111b21a3;
+
+}
+.dp_img{
+    height: 100%;
+    
+}
+
+.dp_img img{
+    margin-left: 14px;
+    margin-right: 14px;
+    object-fit: cover;
+}
+
+.wrapper .row .sidebar .contact_desc{
+    height: 100%;
+    border-bottom: 1px solid grey;
+    width: 82%;
+
+    /* margin-right: 20px; */
+
+}
+
+.wrapper .row .sidebar .contact_desc_upper{
+    width: 100%;
+    /* margin-bottom: 2px; */
+    padding-right: 12px;
+
+}
+
+.contact_name{
+    font-size: 17px;
+    color: white;
+}
+
+.wrapper .row .sidebar .last_msg_time{
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #00a884;
+}
+.wrapper .row .sidebar .contact_desc_footer{
+
+    width: 100%;
+}
+
+.wrapper .row .sidebar .last_msg{
+    font-size: 14px;
+    color: #8696a0;
+
+}
+
+.chat_section{
+    width: 69%;
+} 
+/* .chat_section{
+    width: 1200PX;
+} */
+
+.chat_section .chat_header{
+    width: 100%;
+    background-color: #202c33;
+    height: 75px;
+
+}
+
+.chat_section .chat_main{
+    width: 100%;
+
+}
+
+
+.search_icon .image{
+    width: 70%;
+}
+
+.chat_section .chat_footer{
+    width: 100%;
+    background-color: #202c33;
+    height: 72px;
+}
+
+.input_message::placeholder{
+    color: #d1d7db;
+    margin-left: 14px;
+    margin-right: 200px;
+    padding-right: 10vw;
+    object-fit: cover;
+
+}
+
+.pin_icon{
+    padding: 15px;
+}
+
+.chat footer .mic_icon{
+    padding: 15px;
+    margin: auto;
+}
+
+
+.chat_section .chat_main{
+    height: 100%;
+    background-image:url("../images/whatsapp\ background.jpeg");
+    background-color: #101b23;
+    background-blend-mode: overlay;
+    padding: 0px 70px;
+    
+}
+
+.chat_section .chat_main .message_box .me{
+    min-height: 35px;
+    min-width: 60px;
+    background-color: #202c33;
+    border-radius: 8px 0px 8px 8px;
+    font-size: 14px;
+    color: #e9edef;
+    padding-bottom: 5px !important;
+    margin: 5px 0px;
+}
+
+.chat_section .chat_main .message_box .msg_text{
+    margin-right: 5px;
+}
+
+.chat_section .chat_main .message_box .msg_time{
+    position: relative;
+    top: 10px;
+    font-size: 11px;
+    color: hsla(0, 0%, 100%,0,6);
+    margin-bottom: 2px;
+}
+
+.chat_section .chat_main .message_box .dir_right{
+    position: relative;
+    top: -3px;
+    left: -1px;
+
+}
+.chat_section .chat_main .message_box .dir_left{
+    position: relative;
+    top: -3px;
+}
+
+.chat_section .chat_main .message_box .not_me{
+    min-height: 35px;
+    min-width: 60px;
+    background-color: #202c33;
+    border-radius: 0px 8px 8px 8px;
+    font-size: 14px;
+    color: #e9edef;
+    padding-bottom: 5px !important;
+    margin: 5px 0px;
+}
